@@ -21,7 +21,7 @@ int main(int argc, char const* argv[])
 	printf("hello%d%d%c\n",a ,b ,c);
 	printf("x:%d, y:%d\n", v.x, v.y);
 	printf("%d\n",f());
-	for(; a < 3; ) {
+	for(; a < 3; a++) {
 		printf("%d\n", f());
 	}
 	return 0;
